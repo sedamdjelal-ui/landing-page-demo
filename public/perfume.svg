@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" fill="none">
+  <defs>
+    <linearGradient id="glass" x1="140" y1="210" x2="340" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3DDAE"/>
+      <stop offset="1" stop-color="#B3832F"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="200" y1="70" x2="280" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F5249"/>
+      <stop offset="1" stop-color="#152824"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 290) scale(230)">
+      <stop stop-color="#E3C78D" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#E3C78D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="240" cy="290" r="230" fill="url(#halo)"/>
+  <circle cx="240" cy="290" r="196" stroke="#B3832F" stroke-opacity=".35" stroke-width="1.5" stroke-dasharray="2 10"/>
+
+  <ellipse cx="240" cy="512" rx="130" ry="14" fill="#2A1D15" fill-opacity=".12"/>
+
+  <!-- cap and neck -->
+  <rect x="200" y="70" width="80" height="92" rx="12" fill="url(#cap)"/>
+  <rect x="212" y="82" width="10" height="68" rx="5" fill="#fff" fill-opacity=".14"/>
+  <rect x="214" y="162" width="52" height="30" fill="#B3832F"/>
+  <rect x="206" y="186" width="68" height="14" rx="4" fill="#8E6722"/>
+
+  <!-- bottle -->
+  <path d="M168 200h144c22 0 40 18 40 40v214c0 24-20 44-44 44H172c-24 0-44-20-44-44V240c0-22 18-40 40-40Z" fill="url(#glass)"/>
+  <path d="M168 200h144c22 0 40 18 40 40v214c0 24-20 44-44 44H172c-24 0-44-20-44-44V240c0-22 18-40 40-40Z" stroke="#8E6722" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M152 250c0-16 10-28 24-30v236c-14-2-24-14-24-30V250Z" fill="#fff" fill-opacity=".28"/>
+
+  <!-- label -->
+  <rect x="184" y="296" width="112" height="112" rx="56" fill="#FAF5EC"/>
+  <rect x="192" y="304" width="96" height="96" rx="48" stroke="#B3832F" stroke-width="1.5"/>
+  <path d="M240 322l8 20 20 8-20 8-8 20-8-20-20-8 20-8 8-20Z" fill="#1F3A34"/>
+
+  <!-- sparkles -->
+  <path d="M92 150l5 13 13 5-13 5-5 13-5-13-13-5 13-5 5-13Z" fill="#B3832F"/>
+  <path d="M396 214l4 10 10 4-10 4-4 10-4-10-10-4 10-4 4-10Z" fill="#B3832F" fill-opacity=".7"/>
+  <path d="M404 404l3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8Z" fill="#1F3A34" fill-opacity=".6"/>
+  <circle cx="78" cy="372" r="5" fill="#1F3A34" fill-opacity=".45"/>
+</svg>
